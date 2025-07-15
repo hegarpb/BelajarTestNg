@@ -4,12 +4,13 @@ import org.testng.annotations.Test;
 
 public class SignInTest {
 
-  @Test(priority = 1)
-  public void signinTest() {
+  @Test(priority = 1, timeOut = 3000)
+  public void signinTest() throws InterruptedException {
+    Thread.sleep(2000);
     System.out.println("Method SignInTest.signinTest dijalankan");
   }
 
-  @Test(priority = 2)
+  @Test(priority = 2, enabled = false)
   public void dashboardTest() {
     System.out.println("Method SignInTest.dashboardTest dijalankan");
   }
