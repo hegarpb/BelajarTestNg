@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Belajar TestNG Suite">
   <test name="App Test">
+    <parameter name="username" value="johansebastian"></parameter>
+    <parameter name="password" value="123qwe"></parameter>
     <classes>
       <class name="com.juaracoding.btestng.SignInTest"></class>
     </classes>
