@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.881" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.945" tests="1" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/regression.xml"/>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -16,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire4844241672822311264\surefirebooter-20250715201253303_3.jar C:\Users\LENOVO\AppData\Local\Temp\surefire4844241672822311264 2025-07-15T20-12-53_104-jvmRun1 surefire-20250715201253303_1tmp surefire_0-20250715201253303_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire11764310767790774225\surefirebooter-20250715213125853_3.jar C:\Users\LENOVO\AppData\Local\Temp\surefire11764310767790774225 2025-07-15T21-31-25_592-jvmRun1 surefire-20250715213125853_1tmp surefire_0-20250715213125853_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Hegar\sqabatch23\TestNg\BelajarTestNg\target\test-classes;C:\Hegar\sqabatch23\TestNg\BelajarTestNg\target\classes;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire4844241672822311264\surefirebooter-20250715201253303_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire11764310767790774225\surefirebooter-20250715213125853_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -60,12 +61,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="fillUsername[johansebastian](1)" classname="com.juaracoding.btestng.SignInTest" time="0.006">
+  <testcase name="registerTest[johansebastian, johan@sebastian.com, 123qwe](1)" classname="com.juaracoding.btestng.AuthenticationTest" time="0.014">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="fillPassword[123qwe](1)" classname="com.juaracoding.btestng.SignInTest" time="0.0"/>
-  <testcase name="clickButtonSignIn" classname="com.juaracoding.btestng.SignInTest" time="0.0"/>
 </testsuite>

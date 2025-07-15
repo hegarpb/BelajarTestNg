@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Belajar TestNG Suite">
-  <test name="App Test">
+<suite name="Belajar TestNG Suite Regression">
+  <test name="App Test Regression">
     <parameter name="username" value="johansebastian"></parameter>
     <parameter name="invalidUsername" value="jonosebastian"></parameter>
     <parameter name="password" value="123qwe"></parameter>
@@ -10,7 +10,7 @@
     <groups>
       <run>
         <include name="setup"></include>
-        <include name="negative-test"></include>
+        <include name="medium"></include>
       </run>
     </groups>
 

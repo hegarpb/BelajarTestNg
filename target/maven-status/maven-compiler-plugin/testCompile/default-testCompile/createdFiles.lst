@@ -1,3 +1,4 @@
 com\juaracoding\btestng\SignInTest.class
 com\juaracoding\btestng\CalculatorTest.class
 com\juaracoding\btestng\AppTest.class
+com\juaracoding\btestng\AuthenticationTest.class

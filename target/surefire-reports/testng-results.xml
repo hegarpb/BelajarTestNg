@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T20:12:54 WIB" name="Belajar TestNG Suite" finished-at="2025-07-15T20:12:54 WIB" duration-ms="85">
+  <suite started-at="2025-07-15T21:31:27 WIB" name="Belajar TestNG Suite Regression" finished-at="2025-07-15T21:31:27 WIB" duration-ms="96">
     <groups>
+      <group name="auth">
+        <method signature="AuthenticationTest.registerTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.btestng.AuthenticationTest@7c469c48]" name="registerTest" class="com.juaracoding.btestng.AuthenticationTest"/>
+      </group> <!-- auth -->
+      <group name="regression">
+        <method signature="AuthenticationTest.registerTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.btestng.AuthenticationTest@7c469c48]" name="registerTest" class="com.juaracoding.btestng.AuthenticationTest"/>
+      </group> <!-- regression -->
+      <group name="medium">
+        <method signature="AuthenticationTest.registerTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.btestng.AuthenticationTest@7c469c48]" name="registerTest" class="com.juaracoding.btestng.AuthenticationTest"/>
+      </group> <!-- medium -->
     </groups>
-    <test started-at="2025-07-15T20:12:54 WIB" name="App Test" finished-at="2025-07-15T20:12:54 WIB" duration-ms="85">
-      <class name="com.juaracoding.btestng.SignInTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.btestng.SignInTest@12b0404f]" started-at="2025-07-15T20:12:54 WIB" name="setup" finished-at="2025-07-15T20:12:54 WIB" duration-ms="21" status="PASS">
+    <test started-at="2025-07-15T21:31:27 WIB" name="App Test Regression" finished-at="2025-07-15T21:31:27 WIB" duration-ms="96">
+      <class name="com.juaracoding.btestng.AuthenticationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.btestng.AuthenticationTest@7c469c48]" started-at="2025-07-15T21:31:27 WIB" name="setup" finished-at="2025-07-15T21:31:27 WIB" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fillUsername(java.lang.String)[pri:1, instance:com.juaracoding.btestng.SignInTest@12b0404f]" started-at="2025-07-15T20:12:54 WIB" name="fillUsername" finished-at="2025-07-15T20:12:54 WIB" duration-ms="7" status="PASS">
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.btestng.AuthenticationTest@7c469c48]" started-at="2025-07-15T21:31:27 WIB" name="registerTest" finished-at="2025-07-15T21:31:27 WIB" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[johansebastian]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillUsername -->
-        <test-method signature="fillPassword(java.lang.String)[pri:2, instance:com.juaracoding.btestng.SignInTest@12b0404f]" started-at="2025-07-15T20:12:54 WIB" name="fillPassword" finished-at="2025-07-15T20:12:54 WIB" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
+            <param index="1">
+              <value>
+                <![CDATA[johan@sebastian.com]]>
+              </value>
+            </param>
+            <param index="2">
               <value>
                 <![CDATA[123qwe]]>
               </value>
@@ -32,12 +40,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillPassword -->
-        <test-method signature="clickButtonSignIn()[pri:3, instance:com.juaracoding.btestng.SignInTest@12b0404f]" started-at="2025-07-15T20:12:54 WIB" name="clickButtonSignIn" finished-at="2025-07-15T20:12:54 WIB" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickButtonSignIn -->
-      </class> <!-- com.juaracoding.btestng.SignInTest -->
-    </test> <!-- App Test -->
-  </suite> <!-- Belajar TestNG Suite -->
+        </test-method> <!-- registerTest -->
+      </class> <!-- com.juaracoding.btestng.AuthenticationTest -->
+    </test> <!-- App Test Regression -->
+  </suite> <!-- Belajar TestNG Suite Regression -->
 </testng-results>

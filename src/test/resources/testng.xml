@@ -3,9 +3,19 @@
 <suite name="Belajar TestNG Suite">
   <test name="App Test">
     <parameter name="username" value="johansebastian"></parameter>
+    <parameter name="invalidUsername" value="jonosebastian"></parameter>
     <parameter name="password" value="123qwe"></parameter>
+    <parameter name="email" value="johan@sebastian.com"></parameter>
+
+    <groups>
+      <run>
+        <include name="setup"></include>
+        <include name="negative-test"></include>
+      </run>
+    </groups>
+
     <classes>
-      <class name="com.juaracoding.btestng.SignInTest"></class>
+      <class name="com.juaracoding.btestng.AuthenticationTest"></class>
     </classes>
   </test>
 </suite>
