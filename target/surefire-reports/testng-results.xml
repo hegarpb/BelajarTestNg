@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T21:19:29 WIB" name="Belajar TestNG Suite" finished-at="2025-07-14T21:19:29 WIB" duration-ms="117">
+  <suite started-at="2025-07-15T19:28:36 WIB" name="Belajar TestNG Suite" finished-at="2025-07-15T19:28:36 WIB" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2025-07-14T21:19:29 WIB" name="App Test" finished-at="2025-07-14T21:19:29 WIB" duration-ms="117">
-      <class name="com.juaracoding.btestng.CalculatorTest">
-        <test-method signature="addTest()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@7f1302d6]" started-at="2025-07-14T21:19:29 WIB" name="addTest" finished-at="2025-07-14T21:19:29 WIB" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTest -->
-        <test-method signature="substractTest()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@7f1302d6]" started-at="2025-07-14T21:19:29 WIB" name="substractTest" finished-at="2025-07-14T21:19:29 WIB" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- substractTest -->
-      </class> <!-- com.juaracoding.btestng.CalculatorTest -->
+    <test started-at="2025-07-15T19:28:36 WIB" name="App Test" finished-at="2025-07-15T19:28:36 WIB" duration-ms="68">
       <class name="com.juaracoding.btestng.SignInTest">
-        <test-method signature="tc003()[pri:0, instance:com.juaracoding.btestng.SignInTest@2fd6b6c7]" started-at="2025-07-14T21:19:29 WIB" name="tc003" finished-at="2025-07-14T21:19:29 WIB" duration-ms="2" status="PASS">
+        <test-method signature="signinTest()[pri:0, instance:com.juaracoding.btestng.SignInTest@7f1302d6]" started-at="2025-07-15T19:28:36 WIB" name="signinTest" finished-at="2025-07-15T19:28:36 WIB" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc003 -->
+        </test-method> <!-- signinTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.juaracoding.btestng.SignInTest@7f1302d6]" started-at="2025-07-15T19:28:36 WIB" name="dashboardTest" finished-at="2025-07-15T19:28:36 WIB" depends-on-methods="com.juaracoding.btestng.SignInTest.signinTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
       </class> <!-- com.juaracoding.btestng.SignInTest -->
     </test> <!-- App Test -->
   </suite> <!-- Belajar TestNG Suite -->
